@@ -1,0 +1,52 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0 ;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    background: url(bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 10px;
+    margin: 20px;
+    
+}
+
+main{ /*para centrar elementos*/
+    width: 940px; 
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0; /*para separacion de la cabecera y pie de pagina*/
+}
+
+form label, form p{ /*para centrar las etiquetas, tamaño de letra y espacio tambien 
+    incluimos a p para darle el mismo estilo*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{ /*para centrar las casillas y espacio entre ellas- padding espacio de las casillas, aumentar su largo*/
+    display: block;
+    margin: 0 0 2px;/*espaciamiento interno entre elementos*/
+    padding: 10px 25px;/*espaciamiento interno entre el contenido y el borde*/
+    width: 50%; /*aumentar el largo de la caja de entrada de texto*/
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
